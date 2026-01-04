@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fiqa-e-Jaffaria</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f9d58">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+  <h1>Fiqa-e-Jaffaria</h1>
+  <p>Explore the Holy Quran with translations & Duas</p>
+</header>
+
+<nav>
+  <button onclick="show('home')">Home</button>
+  <button onclick="show('quran')">Quran</button>
+  <button onclick="show('duas')">Duas</button>
+  <button onclick="show('bookmarks')">Bookmarks</button>
+</nav>
+
+<main>
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>Explore the Holy Quran with spiritual guidance.</p>
+  </section>
+
+  <section id="quran" style="display:none">
+    <h2>Quran</h2>
+    <p>﴿ بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ﴾</p>
+    <p>شروع اللہ کے نام سے جو نہایت مہربان، رحم فرمانے والا ہے</p>
+  </section>
+
+  <section id="duas" style="display:none">
+    <h2>Duas</h2>
+    <p>اللَّهُمَّ اجْعَلْنِي مِنْ أَهْلِ الْقُرْآنِ</p>
+  </section>
+
+  <section id="bookmarks" style="display:none">
+    <h2>Bookmarks</h2>
+    <p>No bookmarks yet</p>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
